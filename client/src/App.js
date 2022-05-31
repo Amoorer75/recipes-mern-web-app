@@ -5,7 +5,7 @@ import ListRecipes from "./componets/routes/ListRecipes";
 import CreateRecipe from "./componets/routes/CreateRecipe";
 import EditRecipe from "./componets/routes/EditRecipe";
 import Search from './componets/routes/Search';
-import LandingPage from './componets/routes/LandingPage';
+
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
       <h3>{location.state ? location.state.message: null }</h3>
 
       <Routes>
-        <Route path="/" element={<LandingPage/>}/>
-        <Route path="/random" element={<Home/>}/>
+        <Route path="/" element={<Home />}/>
+        {/* <Route path="/random" element={<Home/>}/> */}
         <Route path="/recipes" element={<ListRecipes/>}/>
         <Route path="/create-recipe" element={<CreateRecipe/>}/>
         <Route path="/recipes/:id" element={<ShowRecipe/>}/>

@@ -124,7 +124,7 @@ export default function SideNav () {
                     </ListItemButton>
                     </NavLink>
                 </ListItem>
-                <ListItem disablePadding>
+                {/* <ListItem disablePadding>
                     <NavLink to="/random">
                     <ListItemButton className='pr-20 hover:bg-cyan-400/50 transform transition-all hover:scale-110' >
                     <ListItemIcon>
@@ -133,7 +133,7 @@ export default function SideNav () {
                     <ListItemText primary="Random" />
                     </ListItemButton>
                     </NavLink>
-                </ListItem>
+                </ListItem> */}
               
                 
                 {/* <ListItem disablePadding>
