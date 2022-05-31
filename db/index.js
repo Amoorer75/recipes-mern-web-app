@@ -3,7 +3,7 @@ const express = require("express")
 const { default: mongoose } = require("mongoose")
 require("dotenv").config()
 
-let MONGODB_URL = process.env.MONGO_URI
+let MONGODB_URL = process.env.MONGODB_URI
 
 
 mongoose.connect(MONGODB_URL, 
