@@ -1,6 +1,5 @@
 // working on RecipeForm by passing in props down
-import { CancelScheduleSend, SaveAlt, SendAndArchive } from '@mui/icons-material';
-import { Box, TextField, Button, ListItemIcon } from '@mui/material';
+import { Box, TextField, Button} from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const RecipeForm = ({recipe, handleChange, handleSubmit, cancelPath}) => {
@@ -8,7 +7,7 @@ const RecipeForm = ({recipe, handleChange, handleSubmit, cancelPath}) => {
     return (
         <form onSubmit={(e) => handleSubmit(e)} className="grid justify-center lg:grid-cols-2 gap-y-10 gap-x-5 p-10 mb-10 lg:mb-28 backdrop-blur-xl bg-zinc-200/70 mt-10 ">
 
-         
+           
             <TextField
                 id="outlined-textarea"
                 label="Title"
@@ -21,7 +20,7 @@ const RecipeForm = ({recipe, handleChange, handleSubmit, cancelPath}) => {
                 variant="filled"
             />
 
-        
+           
              <TextField
                 id="outlined-textarea"
                 label="Cook Time"
@@ -57,7 +56,7 @@ const RecipeForm = ({recipe, handleChange, handleSubmit, cancelPath}) => {
                 onChange={(e) => handleChange(e)}
                 variant="filled"
             />
-
+hange={(e) => handleChange(e)} /> */}
              <TextField
                 id="outlined-textarea"
                 label="Ingredients"
